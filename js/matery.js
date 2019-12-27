@@ -67,9 +67,9 @@ $(function () {
         duration: 700,
         delay: 100
     });
-$(document).find('img[data-original]').each(function(){
-            $(this).parent().attr("href", $(this).attr("data-original"));
-        });
+    $(document).find('img[data-original]').each(function(){
+        $(this).parent().attr("href", $(this).attr("data-original"));
+    });
     /*文章内容详情的一些初始化特性*/
     let articleInit = function () {
         $('#articleContent a').attr('target', '_blank');
